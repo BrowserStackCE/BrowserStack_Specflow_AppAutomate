@@ -1,0 +1,26 @@
+{
+	"host": "hub.browserstack.com",
+	"username": "BrowserStack_username",
+	"access_key": "BrowserStack_accesskey",
+	"commonCapabilities": {
+		"name": "parallel_test",
+		"build": "specflow-browserstack",
+		"project": "Demo BrowserStack",
+		"app" :"DemoApp"
+	},
+	"capabilities": [
+		{
+			"device": "Google Pixel 3",
+			"browserstack.local" :"true"
+		},
+		{
+			"device": "Samsung Galaxy Note 20"
+		},
+		{
+			"device": "Samsung Galaxy Tab S7"
+		},
+		{
+			"device": "Motorola Moto G7 Play"
+		}
+	]
+}
