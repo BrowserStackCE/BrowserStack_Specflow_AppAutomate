@@ -6,7 +6,7 @@
 		"name": "parallel_test",
 		"build": "specflow-browserstack",
 		"project": "Demo BrowserStack",
-		"app" :"DemoApp"
+		"app" :"app_url"
 	},
 	"capabilities": [
 		{
