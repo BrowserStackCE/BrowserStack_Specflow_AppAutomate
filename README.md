@@ -17,11 +17,11 @@ This repository contains sample tests to run on the BrowserStack Infrastructure 
 
 
 ### Prerequisites
- ```Install Visual Studio with .NET Core v3.1
-Appium
-Specflow+ Runner
-Get your BrowserStack credentials from [here](https://www.browserstack.com/accounts/settings).
- ```
+- Install Visual Studio with .NET Core v3.1
+- Appium
+- Specflow+ Runner
+- Get your BrowserStack credentials from [here](https://www.browserstack.com/accounts/settings).
+
 Set them as environment variables like this:  
 
  ```
@@ -108,12 +108,12 @@ Also add the **app_url** to app capability which is recieved as response while u
 		}
 	]
 }
- ```
+
 ## Launch your tests from Visual Studio by:
 
-1. Navigating to Test Explorer
-2.Selecting your feature file
-3.Run by clicking on “Run” button
+- Navigating to Test Explorer
+- Selecting your feature file
+- Run by clicking on “Run” button
 
 ## Mark Test as passed or failed
 BrowserStack provides a comprehensive REST API and a JavaScript Executor to mark your tests as passed or failed to access and update information about your tests. Shown below is a sample code snippet which allows you to mark your tests as pass or fail based on the assertions in your SpecFlow test cases using JavaScript Executor. A full reference of our REST API can be found here.
