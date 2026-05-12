@@ -16,6 +16,7 @@
     <PackageReference Include="Appium.WebDriver" Version="4.1.1" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
     <PackageReference Include="Selenium.Support" Version="3.141.0" />
+  <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
     <PackageReference Include="xunit.assert" Version="2.4.1" />
   </ItemGroup>
 
